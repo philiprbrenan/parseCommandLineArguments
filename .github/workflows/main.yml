@@ -15,4 +15,4 @@ jobs:
     - name: Run
       run: |
         sudo apt install nodejs
-        nodejs parseCommandLineArguments.j
+        nodejs parseCommandLineArguments.js
