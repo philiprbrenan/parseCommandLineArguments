@@ -2,7 +2,7 @@
 
 Parse a string of command line arguments into positional and keyword parameters.
 
-![Test](https://github.com/philiprbrenan/parseCommandLineArguments/workflows/Test/badge.svg?branch=master)
+![Test](https://github.com/philiprbrenan/parseCommandLineArguments/workflows/Test/badge.svg)
 
     const string  = "hello --person=name --location=world greeting -d1"
     
