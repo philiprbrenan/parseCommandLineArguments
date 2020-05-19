@@ -69,10 +69,10 @@ if (typeof document == 'undefined') try {                                       
 
   if (1)                                                                        // Parse into arguments
    {const string  = "hello --person=name --location=world greeting -d1"
-    const results = {"keywords":
-                       {"person":"name",
-                        "location":"world",
-                        "d":"1",
+    const results = {"keywords"   :
+                       {"person"  : "name",
+                        "location": "world",
+                        "d"       : "1",
                        },
                      "positionals": ["hello","greeting"]}
     assert.deepEqual(parseCommandLineArguments(string), results)
@@ -82,3 +82,4 @@ catch(e)
  {console.log(e)
  }
 
+exports.parseCommandLineArguments = parseCommandLineArguments
